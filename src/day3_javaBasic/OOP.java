@@ -1,7 +1,7 @@
-package day2_day3_javaBasic;
+package day3_javaBasic;
 
 public class OOP {
-		 private int x;
+		  int x;
 		  public static void main(String[] args) {
 			  OOP myObj = new OOP();
 		    myObj.x = 40;

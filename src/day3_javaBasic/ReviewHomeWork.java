@@ -1,23 +1,27 @@
-package day2_day3_javaBasic;
+package day3_javaBasic;
 import java.util.Scanner;
 public class ReviewHomeWork {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method istub
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Nhập vào số phần tử của dãy: ");		
+		System.out.println("Nhập vào số phần tử của mảng: ");		
 		int n = scanner.nextInt();
-		System.out.println("Nhập vào các phần tử của dãy: ");
+		System.out.println("Nhập vào các phần tử của mảng: ");
 		int arr[] = new int[n];
-		for (int i=0; i<n; i++) {
+		for (int i=1; i<=n; i++) {
 			System.out.println("Nhập vào phần tử thứ: " +i);
 			arr[i]=scanner.nextInt();
 		}
 		
-		System.out.println("Dãy số ban đầu: ");
+		System.out.println("Dãy số là: ");
 		for (int i=0; i<n; i++) {
 			System.out.println(arr[i] + "\t");
 		}
+		
+		
+		
+		
 		order(arr);
 		printArray(arr);
 	}

@@ -1,8 +1,8 @@
-package day2_day3_javaBasic;
+package day3_javaBasic;
 
 import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
-public class SapXepDaySo {
+public class Day3_BubbleSort {
 
 	private void increaseOrder(int arr[]) { 
 		for (int i = 0; i < arr.length-1; i++) {
@@ -40,7 +40,7 @@ public class SapXepDaySo {
 	public static void main1(String[] args) {
 		System.out.println("==Cho day so ban dau la: 5, 1, 4, 2, 8, 7, 3, 0, 6 ====");
 		int arr[] = { 5, 1, 4, 2, 8, 7, 3, 0, 6 };
-		SapXepDaySo order = new SapXepDaySo();
+		Day3_BubbleSort order = new Day3_BubbleSort();
 		order.increaseOrder(arr);
 		order.printArray(arr);
 		int outputNumber = ((1123*6745)/ 500);
@@ -61,4 +61,4 @@ public class SapXepDaySo {
 		    System.out.println("Số thứ nhất: "+x +" NHÂN số thứ hai: "+ y + " CHIA số thứ 3 "+ z+ " bằng: "+ ketqua); // Print the sum
 	}
 	
-	}
+}
