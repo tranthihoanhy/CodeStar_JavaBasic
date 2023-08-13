@@ -2,23 +2,17 @@ package day5_inherritance;
 
 public abstract class Nguoi {
     private String name;
-    //hàm đi chơi
+    //hàm đi chơi là hàm chung của tất cả các đối tượng SinhVien và GiaoVien nhưng lại xử lý khác nhau cho từng ông
     public abstract void diChoi();
-    public void setName(String specifyName)
+    
+    public void setName(String _name)
 	{
-		this.name = specifyName;
+		this.name = _name;
 	}
 	public String getName()
 	{
 		return name;
 	}
-	 public int add(int a, int b) {
-	    	return a + b;
-	    	}
-
-	   public double add(double a, double b) {
-	    	return a + b;
-	    	}
 }
 
 

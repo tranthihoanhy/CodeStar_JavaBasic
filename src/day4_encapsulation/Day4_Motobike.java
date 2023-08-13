@@ -1,12 +1,12 @@
 package day4_encapsulation;
 
-public class Day4_Person {
+public class Day4_Motobike {
 	private String tenXe;
 	private String loaiXe;
 	private int vanTocMax;
 
 	public String getXeMayinfo() {
-		return ("Ten xe la " + tenXe + "\nLoai xe la: " + loaiXe + "\nVan toc lon nhat la: " + vanTocMax);
+		return ("Ten xe la " + tenXe + "\nLoai xe la: " + loaiXe);
 	}
 
 	public int vanTocMax() {
